@@ -134,6 +134,7 @@ body{
     border-left:var(--BORDERS);
     border-right: var(--BORDERS);
     box-shadow: 0 0 10px var(--BORDer-COLOR);
+
 }
 
 h1, h2, h3 {
