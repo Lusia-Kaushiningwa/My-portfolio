@@ -1,49 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-        <meta charset ="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name = "author" content ="Lusia">
-        <meta name="description" content="About Lusia Kaushiningwa">
-        <title> About Me</title>
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="CSS/style.css" type="text/css">
-<script src="js/main.js" defer></script>
-    </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Projects</title>
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
 <body>
-   <Header class="header">
-       <h1 class="header__h1">Lusia's portfolio</h1>
-       <nav class="header_"nav">
-            <ul class="header__ul">
-                <li>
-                    <a href="/">Home</a>
-                </li>
-                <li>
-                    <a href="My contact.html">Contact Info</a>
-                </li>
-                 <li>
-                        <a href="Projects section.html">Projects section </a>
-                </li>
-        </ul>
-    </nav>
-        </Header>
-        <section class="hero">
-             <div class="container">
-            <Figure>
-        <img src="img/JavaScript.png" alt="javaScript" tittle=" JavaScript" class="centerImage" width="2150" height= "267">
-        <figcaption class="offscreen"> 
-            Know more about Lusia Kaushiningwa
-        </figcaption>
-    </Figure> 
-    </div> 
-        </section> 
 
-    
-        <footer class="footer">
-        <p> 
-             <span class="nowrap"> Copyright &copy; <time id="year"></time> </span>; 
-            <span class="nowrap">Lusia Kaushiningwa</span> 
-        </p>
-       </footer>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container nav">
+      <h1 class="logo">Lusia Kaushiningwa</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="Skills section.html">Skills</a>
+        <a href="Projects section.html">Projects</a>
+        <a href="My contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- PROJECTS SECTION -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <p class="section-text">
+        Here are some projects I’ve worked on while learning web development.
+      </p>
+
+      <div class="projects-grid">
+
+        <!-- Project Card -->
+        <div class="project-card">
+          <img src="img/project1.png" alt="Quiz App">
+          <div class="project-content">
+            <h3>Quiz App</h3>
+            <p>An interactive quiz application built with HTML, CSS, and JavaScript.</p>
+            <a href="#" class="project-btn">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="img/project2.png" alt="Portfolio Website">
+          <div class="project-content">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio showcasing my skills and projects.</p>
+            <a href="#" class="project-btn">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="img/project3.png" alt="Landing Page">
+          <div class="project-content">
+            <h3>Landing Page</h3>
+            <p>A responsive landing page with modern layout techniques.</p>
+            <a href="#" class="project-btn">View Project</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Lusia Kaushiningwa</p>
+  </footer>
+
 </body>
 </html>
