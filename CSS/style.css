@@ -4,12 +4,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+main {
+  flex: 1;
+  padding: 20px;
+  flex-grow: 1;
+}
+html, body {
+  height: 100%;
+}
 
 /* BODY */
 body {
   font-family: 'Poppins', sans-serif;
   background-color: whitesmoke;
   color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* CONTAINER */
@@ -96,11 +107,12 @@ nav a:hover {
 
 /* FOOTER */
 .footer {
+  width: 100%;
   background-color: #0d6efd;
   color: white;
   text-align: center;
-  padding: 20px 0;
-  margin-top: 40px;
+  padding: 10px 0;
+  margin-top: 20px;
 }
 
 /* MOBILE RESPONSIVE */
@@ -366,5 +378,9 @@ nav a:hover {
   .contact-container {
     flex-direction: column;
   }
+}
+.dotted-paragraph {
+  border: 2px dotted #333;
+  padding: 12px;
 }
 
